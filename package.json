@@ -1,0 +1,22 @@
+{
+  "name": "drizzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:generate": "drizzle-kit generate:mysql",
+    "db:deploy": "node -r esbuild-register .drizzle/migrator.js",
+    "dev": "node -r esbuild-register src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "drizzle-kit": "^0.19.12",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.27.2",
+    "mysql2": "^3.6.0"
+  }
+}
