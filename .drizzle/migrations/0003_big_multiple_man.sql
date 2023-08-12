@@ -1,0 +1,1 @@
+ALTER TABLE `blog_to_category` MODIFY COLUMN `category_slug` varchar(50) NOT NULL;

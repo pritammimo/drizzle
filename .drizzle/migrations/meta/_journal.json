@@ -8,6 +8,27 @@
       "when": 1691251495997,
       "tag": "0000_chemical_hellion",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1691343221485,
+      "tag": "0001_foamy_blue_shield",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1691343393276,
+      "tag": "0002_common_steel_serpent",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1691856073700,
+      "tag": "0003_big_multiple_man",
+      "breakpoints": true
     }
   ]
 }
